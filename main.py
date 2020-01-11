@@ -1,7 +1,8 @@
-from charBase import charBase
+from characters.charBase import charBase
 import os
 import colored
 from colored import stylize
+
 def creatPlayer(charName, charMaxLife):
     player = charBase(charName, charMaxLife)
     return player
